@@ -59,7 +59,7 @@ pytest-selenium-framework/
 
 ## Installation
 
-Clone the repository
+Clone the repository 
 
 ```bash
 git clone <repository-url>
