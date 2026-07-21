@@ -14,7 +14,7 @@ A scalable Selenium Automation Framework built using Python, Pytest and Page Obj
 - Logging
 - Excel Data Handling
 - Configuration File
-- WebDriver Manager
+- WebDriver Manager 
 
 ---
 
