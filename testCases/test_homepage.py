@@ -1,7 +1,7 @@
 import allure
 import pytest
 from Pages.HomePage import HomePage
-from Utilities.ReadConfig import ReadConfig
+from Utilities.ReadConfig import ReadConfig 
 
 @pytest.mark.skip
 @pytest.mark.usefixtures("setup")
