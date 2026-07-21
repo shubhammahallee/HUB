@@ -8,7 +8,7 @@ from Utilities.ReadConfig import ReadConfig
 class Test_homepage:
 
     @allure.title("Search bar pagination test")
-    @allure.description("Navigates to last page via next button")
+    @allure.description("Navigates to last page via next button") 
     def test_homepage(self):
         hp = HomePage(self.driver)
 
