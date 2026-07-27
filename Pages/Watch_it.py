@@ -20,7 +20,7 @@ class Watch_it(BasePage):
             if videos:
                 chosen = random.choice(videos)
                 self.driver.execute_script("arguments[0].click();", chosen) 
-                self.driver.fullscreen_window()
+                self.driver.fullscreen_window()  
                 self.log.info("✅ Video played") 
             else:
                 self.log.info("❌ Not played")
