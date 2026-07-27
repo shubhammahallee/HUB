@@ -21,7 +21,7 @@ class BasePage:
 
     def handle_cookies(self):
         try:
-            cookie = self.wait.until(EC.any_of(
+            cookie = self.wait.until(EC.any_of( 
                 EC.element_to_be_clickable(self.COOKIE_BTN),
                 EC.element_to_be_clickable(self.COOKIE_BTN_ALT)
             ))
