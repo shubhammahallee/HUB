@@ -32,4 +32,4 @@ class BasePage:
 
     # Alias — keeps old test calls working
     def handle_cookie_popup(self):
-        self.handle_cookies()
+        self.handle_cookies() 
