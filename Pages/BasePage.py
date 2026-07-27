@@ -7,7 +7,7 @@ from Utilities.Logger import Log_details
 
 class BasePage:
     ENTER_BTN = (By.XPATH, "//button[normalize-space()='Ich bin 18 oder älter - Eingabe']")
-    COOKIE_BTN = (By.XPATH, "//button[contains(text(), 'Ok') or contains(@class, 'accept')]")
+    COOKIE_BTN = (By.XPATH, "//button[contains(text(), 'Ok') or contains(@class, 'accept')]") 
     COOKIE_BTN_ALT = (By.XPATH, "//button[@class='buttonBase js-acceptGlobalCookies']")
 
     def __init__(self, driver):
