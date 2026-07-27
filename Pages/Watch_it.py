@@ -14,7 +14,7 @@ class Watch_it(BasePage):
 
     def play_video(self):
         try:
-            videos = self.wait.until(
+            videos = self.wait.until( 
                 EC.presence_of_all_elements_located((By.XPATH, "//a[@title]")))
 
             if videos:
