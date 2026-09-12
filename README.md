@@ -6,7 +6,7 @@ A scalable Selenium Automation Framework built using Python, Pytest and Page Obj
 
 ## Tech Stack
 
-- Python
+- Python 
 - Selenium WebDriver 
 - Pytest
 - Page Object Model (POM)
