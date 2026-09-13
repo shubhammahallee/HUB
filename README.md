@@ -11,7 +11,7 @@ A scalable Selenium Automation Framework built using Python, Pytest and Page Obj
 - Pytest
 - Page Object Model (POM)
 - HTML Reports
-- Logging
+- Logging 
 - Excel Data Handling
 - Configuration File
 - WebDriver Manager 
